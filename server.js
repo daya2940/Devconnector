@@ -1,11 +1,12 @@
 const express = require("express");
 const connectDB = require("./config/db");
+const morgan = require("morgan");
 const app = express();
 
 connectDB();
 
 // Init Middleware
-
+app.use(morgan("dev"));
 app.use(express.json({ extended: false }));
 
 //Define Routes

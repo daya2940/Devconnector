@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://daya:wt1PcgtozUVLVRbv@cluster0.6jtvp.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "abcd4r47r34xbjhxvsagcasxa"
-}
